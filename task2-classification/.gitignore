@@ -1,5 +1,7 @@
-# 数据(真实影像可能很大,不入库;合成数据可本地重新生成)
+# 数据:真实影像 scene/labels 入库以便一键复现;其余 tif(如本地生成的合成数据、预测输出)不入库
 data/*.tif
+!data/scene.tif
+!data/labels.tif
 
 # Python
 __pycache__/
