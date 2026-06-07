@@ -1,0 +1,13 @@
+# 数据(真实影像可能很大,不入库;合成数据可本地重新生成)
+data/*.tif
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
